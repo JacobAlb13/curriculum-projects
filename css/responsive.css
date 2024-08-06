@@ -1,0 +1,247 @@
+/******RESPONSIVE********/
+
+@media screen and (min-width:992px){
+/******HEADER********/
+.logo-container{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.logo-container img{
+    width: 120px;
+}
+
+nav{
+    float: right;
+    width: 45%;
+    background-color: #ce680e;
+    padding-top: 40px;
+}
+
+
+}
+
+@media screen and (max-width:992px){
+main{
+        padding-top: 216.562px;
+    }
+    #sub-menu{
+        display: none;
+    }
+.button-link{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    
+/****************************************CONTACTS******************************************/
+/******MAIN********/
+
+.info{
+    width: 70%;
+    float: left;
+    padding: 15px;
+}
+
+.contatti{
+    width: 30%;
+    float: right;
+    padding: 15px;
+}
+}
+
+
+@media screen and (max-width:768px) {
+/****************************************HOME******************************************/
+/******MAIN********/
+
+
+/******Section Banner********/
+#banner-section{
+    padding: 0;
+}
+
+.banner-description{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.banner-image{
+    float: none;
+    margin: 0 auto;
+}
+
+.banner-image img{
+    width: 85%;
+}
+
+/******Section About********/
+.about-section-image, .about-section-description{
+    width: 100%;
+}
+
+/******Section Products********/
+.product{
+    width: 50%;
+}
+
+/******Section App********/
+.app-section-image, .app-section-description{
+    width: 100%;
+}
+
+.app-section-image img{
+    width: 40%;
+}
+
+/******Section Quality********/
+.item-quality{
+    width: 45%;
+}
+
+/******FOOTER********/
+.contenitore-footer{
+    text-align: center;
+}
+
+.footer-section{
+    width: 45%;
+    float: none;
+}
+
+.material-symbols-outlined{
+    float: none;
+}
+
+/****************************************ABOUT******************************************/
+/******MAIN********/
+.about-story-section-description-1, .about-story-section-description-2, .about-story-section-description-3{
+    width: 100%;
+}
+
+.about-story-section-image-1, .about-story-section-image-2, .about-story-section-image-3{
+    width: 100%;
+}
+
+/****************************************PRODUCTS******************************************/
+/******MAIN********/
+
+.contenitore-allproducts-right{
+    background-position: 0;
+}
+
+#product-section{
+    display: grid;
+}
+
+.product-description.left{
+    width: 100%;
+}
+
+.product-description{
+    text-align: center;
+}
+
+.product-description ul{
+    display: inline-block;
+    text-align: left;
+}
+
+.product-image-left, .product-image-right{
+    width: 100%;
+}
+
+.product-image-right{
+    order: 1;
+}
+}
+
+
+
+
+@media screen and (max-width:460px) {
+/****************************************HOME******************************************/
+/******MAIN********/
+
+/******Section Banner********/
+.banner-description{
+    padding-bottom: 0;
+}
+
+.banner-description > h3 {
+    font-size: 2.5em;
+}
+
+.banner-image{
+    width: 75%;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+/******Section Products********/
+    .product{
+        width: 100%;
+    }
+
+/******Section Quality********/
+
+.item-quality{
+    width: 95%;
+}
+
+/******FOOTER********/
+
+.contenitore-footer{
+    text-align: center;
+}
+
+.footer-section{
+    width: 100%;
+}
+
+.material-symbols-outlined{
+    float: none;
+}
+
+/****************************************ABOUT******************************************/
+/******MAIN********/
+.item-number{
+    width: 100%;
+}
+
+.number-image{
+    width: 100%;
+}
+
+.number-image img {
+    width: 20%;
+}
+
+/****************************************SUB-MENU******************************************/
+nav ul{
+    display: none;
+}
+
+.button-link{
+    padding: 15px 0;
+    display: block;
+}
+
+#sub-menu{
+    display: none;
+}
+
+#sub-menu a{
+    text-transform: uppercase;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+}
