@@ -32,6 +32,12 @@ main{
     padding-top: 124.613px;
 }
 
+    #sub-menu{
+        display: none;
+    }
+.button-link{
+        display: none;
+    }
 /****************************************HOME******************************************/
 /******HEADER********/
 
