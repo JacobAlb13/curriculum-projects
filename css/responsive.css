@@ -26,12 +26,6 @@ nav{
 main{
         padding-top: 216.562px;
     }
-    #sub-menu{
-        display: none;
-    }
-.button-link{
-        display: none;
-    }
 }
 
 @media screen and (min-width:768px) {
