@@ -11,3 +11,11 @@ $("nav li a").each(function(){
 $button.click(function(){
     $submenu.toggle();
     });
+$(window).resize(function(){
+    var windowWidth = $(window).width();
+    if (windowWidth >= 769) {  // Dimensioni desktop
+        $submenu.show();  // Mostra il menu
+    } else {   
+            $submenu.hide();  // Nascondi il menu solo se non è aperto
+        }
+});
