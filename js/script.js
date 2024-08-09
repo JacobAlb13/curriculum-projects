@@ -10,5 +10,4 @@ $("nav li a").each(function(){
 });
 $button.click(function(){
     $submenu.toggle();
-    
-});
+    });
