@@ -19,12 +19,14 @@ nav{
     padding-top: 40px;
 }
 
+
 }
 
 @media screen and (max-width:992px){
 main{
         padding-top: 216.562px;
     }
+
 }
 
 @media screen and (min-width:768px) {
@@ -217,25 +219,27 @@ main{
 }
 
 /****************************************SUB-MENU******************************************/
-nav ul{
-    display: none;
-}
 
 .button-link{
     padding: 15px 0;
     display: block;
+    background-color: sienna;
 }
-
-#sub-menu{
+nav ul{
     display: none;
+    padding:0;
 }
 
-#sub-menu a{
+.sub-menu ul{
+    display: block;
+}
+
+nav ul li{
     text-transform: uppercase;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
-    border-top: 1px solid white;
+    border-top: 1px solid #ffffff;
 }
 }
